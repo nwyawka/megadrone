@@ -1,0 +1,21 @@
+# VSPGEOM v3 Tag Key File
+/Users/matthewoneil/Desktop/Datawerkes/MegaDrone/designs/Phase1_UAV_Correct.vspgeom
+6
+
+# part#,geom#,surf#,gname,gid,thick,plate,copy#,geomcopy#
+1,1,0,Main_Wing_S,PCCEDIXXGB,1,0,1,2
+2,1,1,Main_Wing_S,PCCEDIXXGB,1,0,2,2
+3,3,0,Fuselage_S,BOVUEQOWVF,1,0,1,4
+4,0,0,H_Tail_S,XNNPJQKPBQ,1,0,1,1
+5,0,1,H_Tail_S,XNNPJQKPBQ,1,0,2,1
+6,2,0,V_Tail_S,NGQHQUIFEN,1,0,1,3
+
+6
+
+# tag#,part#,ssname1,ssname2,...,ssid1,ssid2,...
+1,1
+2,2
+3,3
+4,4
+5,5
+6,6

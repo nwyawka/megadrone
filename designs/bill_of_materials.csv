@@ -1,0 +1,53 @@
+Part Number,Description,Specification,Quantity,Unit,Unit Price,Extended Price,Supplier,Notes
+
+Airframe Structure,,,,,,,
+AF-001,"Carbon Fiber Tube - Wing Spar","16mm OD x 14mm ID x 1000mm, pultruded",2,pc,18.00,36.00,"Rockwest Composites / Amazon","Cut to 850mm each for wing panels"
+AF-002,"Carbon Fiber Tube - Tail Boom","12mm OD x 10mm ID x 600mm, pultruded",1,pc,12.00,12.00,"Rockwest Composites / Amazon","Connects fuselage to tail"
+AF-003,"Balsa Sheet - Ribs","3mm x 100mm x 1000mm",4,sheet,4.50,18.00,"Balsa Central / Amazon","For 12 wing ribs and tail ribs"
+AF-004,"Balsa Sheet - Trailing Edge","2mm x 50mm x 1000mm",2,sheet,3.50,7.00,"Balsa Central / Amazon","Wing and tail trailing edges"
+AF-005,"EPP Foam Block - Leading Edge","25mm x 50mm x 1000mm, 30 g/L",2,pc,8.00,16.00,"RC Foam / Amazon","D-box leading edge"
+AF-006,"Fiberglass Cloth","50g/m², 1m x 1m",2,m²,6.00,12.00,"Amazon / Fibreglast","Wing skin and reinforcement"
+AF-007,"Epoxy Resin System","West System 105/206, 600g kit",1,kit,45.00,45.00,"Amazon / West Marine","Laminating and bonding"
+AF-008,"Heat Shrink Film - Covering","Oracover / UltraCote, 2m roll",2,roll,25.00,50.00,"HobbyKing / Amazon","Wing and tail covering"
+AF-009,"Plywood Sheet - Fuselage/Motor Mount","3mm birch ply, 300x300mm",2,sheet,5.00,10.00,"Hobby Lobby / Amazon","Motor mount and fuselage bulkheads"
+AF-010,"Carbon Fiber Sheet","1mm x 200mm x 300mm, 3K weave",1,sheet,22.00,22.00,"Amazon / Rockwest","Fuselage sides and doublers"
+
+Propulsion System,,,,,,,
+PR-001,"Brushless Motor","SunnySky X2212-980KV, 180W, 58g",1,pc,28.00,28.00,"HobbyKing / Amazon","Alternative: T-Motor AT2312-900KV"
+PR-002,"Electronic Speed Controller (ESC)","30A BLHeli_S, 5V/3A BEC",1,pc,18.00,18.00,"HobbyKing / Amazon","With BEC for servos"
+PR-003,"Propeller - Cruise","APC 11x7E Thin Electric",3,pc,6.00,18.00,"HobbyKing / Amazon","Include spares"
+PR-004,"Propeller Adapter","3mm to 6mm collet adapter",1,pc,4.00,4.00,"HobbyKing / Amazon","Match motor shaft"
+PR-005,"Spinner","38mm plastic spinner",1,pc,5.00,5.00,"HobbyKing / Amazon","Aerodynamic nose cone"
+
+Battery & Power,,,,,,,
+PW-001,"LiPo Battery - Primary","4S 3300mAh 30C, XT60",2,pc,45.00,90.00,"HobbyKing / Amazon","117Wh total, one spare"
+PW-002,"Battery Voltage Monitor","1-8S LiPo alarm buzzer",2,pc,3.00,6.00,"Amazon","Low voltage warning"
+PW-003,"Power Distribution Board","Mini PDB with XT60 input",1,pc,8.00,8.00,"Amazon","Clean power distribution"
+PW-004,"XT60 Connectors","Male/Female pair, 5 sets",1,pack,6.00,6.00,"Amazon","Battery connections"
+PW-005,"Battery Charger","ISDT D2 dual charger, 200W",1,pc,75.00,75.00,"Amazon / HobbyKing","Balance charger for 4S"
+
+Avionics & Control,,,,,,,
+AV-001,"Flight Controller","Matek F405-Wing, OSD, GPS",1,pc,55.00,55.00,"Amazon / GetFPV","ArduPilot compatible"
+AV-002,"GPS Module","BN-880 GPS/Compass, 10Hz",1,pc,22.00,22.00,"Amazon","M8N chipset with compass"
+AV-003,"RC Receiver","FrSky R-XSR 16ch SBUS",1,pc,28.00,28.00,"Amazon / GetFPV","Requires FrSky transmitter"
+AV-004,"Telemetry Radio","Holybro 433MHz 500mW, pair",1,set,45.00,45.00,"Amazon / GetFPV","For mission planner link"
+AV-005,"Airspeed Sensor","MS4525DO pitot tube kit",1,pc,35.00,35.00,"Amazon / mRobotics","For accurate airspeed"
+AV-006,"Servo - Aileron","Savox SH-0254, 3.9g digital",2,pc,12.00,24.00,"Amazon / HobbyKing","High-speed micro servo"
+AV-007,"Servo - Elevator","Savox SH-0254, 3.9g digital",1,pc,12.00,12.00,"Amazon / HobbyKing","Same as aileron for commonality"
+AV-008,"Servo - Rudder","Savox SH-0254, 3.9g digital",1,pc,12.00,12.00,"Amazon / HobbyKing","Same as aileron for commonality"
+
+Hardware & Fasteners,,,,,,,
+HW-001,"M3 Screw Assortment","Socket head cap, 6-20mm lengths",1,kit,12.00,12.00,"Amazon","Stainless steel"
+HW-002,"M3 Nylon Lock Nuts","Nyloc nuts, 50 pack",1,pack,5.00,5.00,"Amazon","Vibration resistant"
+HW-003,"Control Horns","Nylon micro horns, 10 pack",1,pack,4.00,4.00,"HobbyKing","For control surfaces"
+HW-004,"Pushrod Set","1.5mm carbon rod + clevis",1,set,8.00,8.00,"HobbyKing","Control linkages"
+HW-005,"Cable Ties","100mm assorted, 100 pack",1,pack,4.00,4.00,"Amazon","Wire management"
+HW-006,"Heat Shrink Tubing","Assorted sizes, kit",1,kit,8.00,8.00,"Amazon","Wire insulation"
+HW-007,"Servo Extension Cables","150mm, 300mm lengths, 10 pack",1,pack,8.00,8.00,"Amazon","JR/Futaba compatible"
+HW-008,"Velcro Straps","Battery straps, 200mm, 5 pack",1,pack,5.00,5.00,"Amazon","Battery mounting"
+
+Ground Support Equipment,,,,,,,
+GS-001,"RC Transmitter","FrSky Taranis X9D Plus SE",1,pc,250.00,250.00,"Amazon / GetFPV","If not already owned"
+GS-002,"Ground Station Laptop Mount","Tripod tablet holder",1,pc,25.00,25.00,"Amazon","For Mission Planner"
+GS-003,"Field Toolkit","Hex drivers, screwdrivers",1,kit,25.00,25.00,"Amazon","Field maintenance"
+GS-004,"Transport Case","Foam-lined hard case, 800x400mm",1,pc,65.00,65.00,"Amazon / Pelican","Wing detaches for transport"

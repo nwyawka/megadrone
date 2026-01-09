@@ -1,0 +1,20 @@
+# MegaDrone UAV Design Requirements
+# Python packages for UAV geometry generation and analysis
+
+# GMSH - Parametric geometry and mesh generation
+# Used for creating UAV models with airfoils, wings, fuselage, and tails
+gmsh>=4.13.0
+
+# OpenVSP Python API (optional - requires building from source)
+# OpenVSP must be installed separately: /Users/matthewoneil/OpenVSP-3.46.0-MacOS
+# The OpenVSP Python API is not included by default
+
+# For data manipulation and analysis
+numpy>=1.24.0
+pandas>=2.0.0
+
+# For visualization (optional)
+matplotlib>=3.7.0
+
+# For configuration files
+pyyaml>=6.0

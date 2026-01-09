@@ -1,0 +1,18 @@
+PARASITE DRAG BUILD UP DATA 
+
+Mach, Altitude (ft), Vinf (ft/s), S_ref (ft^2)
+0.022400, 100.000000, 25.000000, 0.550000 
+
+Temp (F), Pressure (lbf/ft^2), Density (slug/ft^3) 
+58.643384, 2108.579957, 0.002370 
+
+Lam Cf Eqn, Turb Cf Eqn 
+Blasius, Blasius Power Law 
+
+Component Name,S_wet (ft^2),L_ref (ft),t/c or d/l,FF,FF Eqn Type,Re,% Lam,Cf,Q (Interference Factor),f (ft^2),Cd,% Total 
+
+Excrescences, Type, Input
+
+ , , , , , , , , , Geometry Sub-Total:, 0.000000, 0.000000, 0.000000 
+ , , , , , , , , , Excrescence Sub-Total:, 0.000000, 0.000000, 0.000000 
+ , , , , , , , , , Totals:, 0.000000, 0.000000, 0.000000 

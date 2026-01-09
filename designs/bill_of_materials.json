@@ -1,0 +1,478 @@
+{
+  "project": "MegaDrone Phase 1",
+  "date": "2026-01-08",
+  "version": "1.0",
+  "notes": "Prices are estimates based on typical online suppliers (HobbyKing, Amazon, etc.). Payload not included.",
+  "categories": {
+    "airframe": {
+      "name": "Airframe Structure",
+      "items": [
+        {
+          "part_number": "AF-001",
+          "description": "Carbon Fiber Tube - Wing Spar",
+          "specification": "16mm OD x 14mm ID x 1000mm, pultruded",
+          "quantity": 2,
+          "unit": "pc",
+          "unit_price": 18.0,
+          "supplier": "Rockwest Composites / Amazon",
+          "notes": "Cut to 850mm each for wing panels",
+          "extended_price": 36.0
+        },
+        {
+          "part_number": "AF-002",
+          "description": "Carbon Fiber Tube - Tail Boom",
+          "specification": "12mm OD x 10mm ID x 600mm, pultruded",
+          "quantity": 1,
+          "unit": "pc",
+          "unit_price": 12.0,
+          "supplier": "Rockwest Composites / Amazon",
+          "notes": "Connects fuselage to tail",
+          "extended_price": 12.0
+        },
+        {
+          "part_number": "AF-003",
+          "description": "Balsa Sheet - Ribs",
+          "specification": "3mm x 100mm x 1000mm",
+          "quantity": 4,
+          "unit": "sheet",
+          "unit_price": 4.5,
+          "supplier": "Balsa Central / Amazon",
+          "notes": "For 12 wing ribs and tail ribs",
+          "extended_price": 18.0
+        },
+        {
+          "part_number": "AF-004",
+          "description": "Balsa Sheet - Trailing Edge",
+          "specification": "2mm x 50mm x 1000mm",
+          "quantity": 2,
+          "unit": "sheet",
+          "unit_price": 3.5,
+          "supplier": "Balsa Central / Amazon",
+          "notes": "Wing and tail trailing edges",
+          "extended_price": 7.0
+        },
+        {
+          "part_number": "AF-005",
+          "description": "EPP Foam Block - Leading Edge",
+          "specification": "25mm x 50mm x 1000mm, 30 g/L",
+          "quantity": 2,
+          "unit": "pc",
+          "unit_price": 8.0,
+          "supplier": "RC Foam / Amazon",
+          "notes": "D-box leading edge",
+          "extended_price": 16.0
+        },
+        {
+          "part_number": "AF-006",
+          "description": "Fiberglass Cloth",
+          "specification": "50g/m\u00b2, 1m x 1m",
+          "quantity": 2,
+          "unit": "m\u00b2",
+          "unit_price": 6.0,
+          "supplier": "Amazon / Fibreglast",
+          "notes": "Wing skin and reinforcement",
+          "extended_price": 12.0
+        },
+        {
+          "part_number": "AF-007",
+          "description": "Epoxy Resin System",
+          "specification": "West System 105/206, 600g kit",
+          "quantity": 1,
+          "unit": "kit",
+          "unit_price": 45.0,
+          "supplier": "Amazon / West Marine",
+          "notes": "Laminating and bonding",
+          "extended_price": 45.0
+        },
+        {
+          "part_number": "AF-008",
+          "description": "Heat Shrink Film - Covering",
+          "specification": "Oracover / UltraCote, 2m roll",
+          "quantity": 2,
+          "unit": "roll",
+          "unit_price": 25.0,
+          "supplier": "HobbyKing / Amazon",
+          "notes": "Wing and tail covering",
+          "extended_price": 50.0
+        },
+        {
+          "part_number": "AF-009",
+          "description": "Plywood Sheet - Fuselage/Motor Mount",
+          "specification": "3mm birch ply, 300x300mm",
+          "quantity": 2,
+          "unit": "sheet",
+          "unit_price": 5.0,
+          "supplier": "Hobby Lobby / Amazon",
+          "notes": "Motor mount and fuselage bulkheads",
+          "extended_price": 10.0
+        },
+        {
+          "part_number": "AF-010",
+          "description": "Carbon Fiber Sheet",
+          "specification": "1mm x 200mm x 300mm, 3K weave",
+          "quantity": 1,
+          "unit": "sheet",
+          "unit_price": 22.0,
+          "supplier": "Amazon / Rockwest",
+          "notes": "Fuselage sides and doublers",
+          "extended_price": 22.0
+        }
+      ]
+    },
+    "propulsion": {
+      "name": "Propulsion System",
+      "items": [
+        {
+          "part_number": "PR-001",
+          "description": "Brushless Motor",
+          "specification": "SunnySky X2212-980KV, 180W, 58g",
+          "quantity": 1,
+          "unit": "pc",
+          "unit_price": 28.0,
+          "supplier": "HobbyKing / Amazon",
+          "notes": "Alternative: T-Motor AT2312-900KV",
+          "extended_price": 28.0
+        },
+        {
+          "part_number": "PR-002",
+          "description": "Electronic Speed Controller (ESC)",
+          "specification": "30A BLHeli_S, 5V/3A BEC",
+          "quantity": 1,
+          "unit": "pc",
+          "unit_price": 18.0,
+          "supplier": "HobbyKing / Amazon",
+          "notes": "With BEC for servos",
+          "extended_price": 18.0
+        },
+        {
+          "part_number": "PR-003",
+          "description": "Propeller - Cruise",
+          "specification": "APC 11x7E Thin Electric",
+          "quantity": 3,
+          "unit": "pc",
+          "unit_price": 6.0,
+          "supplier": "HobbyKing / Amazon",
+          "notes": "Include spares",
+          "extended_price": 18.0
+        },
+        {
+          "part_number": "PR-004",
+          "description": "Propeller Adapter",
+          "specification": "3mm to 6mm collet adapter",
+          "quantity": 1,
+          "unit": "pc",
+          "unit_price": 4.0,
+          "supplier": "HobbyKing / Amazon",
+          "notes": "Match motor shaft",
+          "extended_price": 4.0
+        },
+        {
+          "part_number": "PR-005",
+          "description": "Spinner",
+          "specification": "38mm plastic spinner",
+          "quantity": 1,
+          "unit": "pc",
+          "unit_price": 5.0,
+          "supplier": "HobbyKing / Amazon",
+          "notes": "Aerodynamic nose cone",
+          "extended_price": 5.0
+        }
+      ]
+    },
+    "power": {
+      "name": "Battery & Power",
+      "items": [
+        {
+          "part_number": "PW-001",
+          "description": "LiPo Battery - Primary",
+          "specification": "4S 3300mAh 30C, XT60",
+          "quantity": 2,
+          "unit": "pc",
+          "unit_price": 45.0,
+          "supplier": "HobbyKing / Amazon",
+          "notes": "117Wh total, one spare",
+          "extended_price": 90.0
+        },
+        {
+          "part_number": "PW-002",
+          "description": "Battery Voltage Monitor",
+          "specification": "1-8S LiPo alarm buzzer",
+          "quantity": 2,
+          "unit": "pc",
+          "unit_price": 3.0,
+          "supplier": "Amazon",
+          "notes": "Low voltage warning",
+          "extended_price": 6.0
+        },
+        {
+          "part_number": "PW-003",
+          "description": "Power Distribution Board",
+          "specification": "Mini PDB with XT60 input",
+          "quantity": 1,
+          "unit": "pc",
+          "unit_price": 8.0,
+          "supplier": "Amazon",
+          "notes": "Clean power distribution",
+          "extended_price": 8.0
+        },
+        {
+          "part_number": "PW-004",
+          "description": "XT60 Connectors",
+          "specification": "Male/Female pair, 5 sets",
+          "quantity": 1,
+          "unit": "pack",
+          "unit_price": 6.0,
+          "supplier": "Amazon",
+          "notes": "Battery connections",
+          "extended_price": 6.0
+        },
+        {
+          "part_number": "PW-005",
+          "description": "Battery Charger",
+          "specification": "ISDT D2 dual charger, 200W",
+          "quantity": 1,
+          "unit": "pc",
+          "unit_price": 75.0,
+          "supplier": "Amazon / HobbyKing",
+          "notes": "Balance charger for 4S",
+          "extended_price": 75.0
+        }
+      ]
+    },
+    "avionics": {
+      "name": "Avionics & Control",
+      "items": [
+        {
+          "part_number": "AV-001",
+          "description": "Flight Controller",
+          "specification": "Matek F405-Wing, OSD, GPS",
+          "quantity": 1,
+          "unit": "pc",
+          "unit_price": 55.0,
+          "supplier": "Amazon / GetFPV",
+          "notes": "ArduPilot compatible",
+          "extended_price": 55.0
+        },
+        {
+          "part_number": "AV-002",
+          "description": "GPS Module",
+          "specification": "BN-880 GPS/Compass, 10Hz",
+          "quantity": 1,
+          "unit": "pc",
+          "unit_price": 22.0,
+          "supplier": "Amazon",
+          "notes": "M8N chipset with compass",
+          "extended_price": 22.0
+        },
+        {
+          "part_number": "AV-003",
+          "description": "RC Receiver",
+          "specification": "FrSky R-XSR 16ch SBUS",
+          "quantity": 1,
+          "unit": "pc",
+          "unit_price": 28.0,
+          "supplier": "Amazon / GetFPV",
+          "notes": "Requires FrSky transmitter",
+          "extended_price": 28.0
+        },
+        {
+          "part_number": "AV-004",
+          "description": "Telemetry Radio",
+          "specification": "Holybro 433MHz 500mW, pair",
+          "quantity": 1,
+          "unit": "set",
+          "unit_price": 45.0,
+          "supplier": "Amazon / GetFPV",
+          "notes": "For mission planner link",
+          "extended_price": 45.0
+        },
+        {
+          "part_number": "AV-005",
+          "description": "Airspeed Sensor",
+          "specification": "MS4525DO pitot tube kit",
+          "quantity": 1,
+          "unit": "pc",
+          "unit_price": 35.0,
+          "supplier": "Amazon / mRobotics",
+          "notes": "For accurate airspeed",
+          "extended_price": 35.0
+        },
+        {
+          "part_number": "AV-006",
+          "description": "Servo - Aileron",
+          "specification": "Savox SH-0254, 3.9g digital",
+          "quantity": 2,
+          "unit": "pc",
+          "unit_price": 12.0,
+          "supplier": "Amazon / HobbyKing",
+          "notes": "High-speed micro servo",
+          "extended_price": 24.0
+        },
+        {
+          "part_number": "AV-007",
+          "description": "Servo - Elevator",
+          "specification": "Savox SH-0254, 3.9g digital",
+          "quantity": 1,
+          "unit": "pc",
+          "unit_price": 12.0,
+          "supplier": "Amazon / HobbyKing",
+          "notes": "Same as aileron for commonality",
+          "extended_price": 12.0
+        },
+        {
+          "part_number": "AV-008",
+          "description": "Servo - Rudder",
+          "specification": "Savox SH-0254, 3.9g digital",
+          "quantity": 1,
+          "unit": "pc",
+          "unit_price": 12.0,
+          "supplier": "Amazon / HobbyKing",
+          "notes": "Same as aileron for commonality",
+          "extended_price": 12.0
+        }
+      ]
+    },
+    "hardware": {
+      "name": "Hardware & Fasteners",
+      "items": [
+        {
+          "part_number": "HW-001",
+          "description": "M3 Screw Assortment",
+          "specification": "Socket head cap, 6-20mm lengths",
+          "quantity": 1,
+          "unit": "kit",
+          "unit_price": 12.0,
+          "supplier": "Amazon",
+          "notes": "Stainless steel",
+          "extended_price": 12.0
+        },
+        {
+          "part_number": "HW-002",
+          "description": "M3 Nylon Lock Nuts",
+          "specification": "Nyloc nuts, 50 pack",
+          "quantity": 1,
+          "unit": "pack",
+          "unit_price": 5.0,
+          "supplier": "Amazon",
+          "notes": "Vibration resistant",
+          "extended_price": 5.0
+        },
+        {
+          "part_number": "HW-003",
+          "description": "Control Horns",
+          "specification": "Nylon micro horns, 10 pack",
+          "quantity": 1,
+          "unit": "pack",
+          "unit_price": 4.0,
+          "supplier": "HobbyKing",
+          "notes": "For control surfaces",
+          "extended_price": 4.0
+        },
+        {
+          "part_number": "HW-004",
+          "description": "Pushrod Set",
+          "specification": "1.5mm carbon rod + clevis",
+          "quantity": 1,
+          "unit": "set",
+          "unit_price": 8.0,
+          "supplier": "HobbyKing",
+          "notes": "Control linkages",
+          "extended_price": 8.0
+        },
+        {
+          "part_number": "HW-005",
+          "description": "Cable Ties",
+          "specification": "100mm assorted, 100 pack",
+          "quantity": 1,
+          "unit": "pack",
+          "unit_price": 4.0,
+          "supplier": "Amazon",
+          "notes": "Wire management",
+          "extended_price": 4.0
+        },
+        {
+          "part_number": "HW-006",
+          "description": "Heat Shrink Tubing",
+          "specification": "Assorted sizes, kit",
+          "quantity": 1,
+          "unit": "kit",
+          "unit_price": 8.0,
+          "supplier": "Amazon",
+          "notes": "Wire insulation",
+          "extended_price": 8.0
+        },
+        {
+          "part_number": "HW-007",
+          "description": "Servo Extension Cables",
+          "specification": "150mm, 300mm lengths, 10 pack",
+          "quantity": 1,
+          "unit": "pack",
+          "unit_price": 8.0,
+          "supplier": "Amazon",
+          "notes": "JR/Futaba compatible",
+          "extended_price": 8.0
+        },
+        {
+          "part_number": "HW-008",
+          "description": "Velcro Straps",
+          "specification": "Battery straps, 200mm, 5 pack",
+          "quantity": 1,
+          "unit": "pack",
+          "unit_price": 5.0,
+          "supplier": "Amazon",
+          "notes": "Battery mounting",
+          "extended_price": 5.0
+        }
+      ]
+    },
+    "ground_support": {
+      "name": "Ground Support Equipment",
+      "items": [
+        {
+          "part_number": "GS-001",
+          "description": "RC Transmitter",
+          "specification": "FrSky Taranis X9D Plus SE",
+          "quantity": 1,
+          "unit": "pc",
+          "unit_price": 250.0,
+          "supplier": "Amazon / GetFPV",
+          "notes": "If not already owned",
+          "extended_price": 250.0
+        },
+        {
+          "part_number": "GS-002",
+          "description": "Ground Station Laptop Mount",
+          "specification": "Tripod tablet holder",
+          "quantity": 1,
+          "unit": "pc",
+          "unit_price": 25.0,
+          "supplier": "Amazon",
+          "notes": "For Mission Planner",
+          "extended_price": 25.0
+        },
+        {
+          "part_number": "GS-003",
+          "description": "Field Toolkit",
+          "specification": "Hex drivers, screwdrivers",
+          "quantity": 1,
+          "unit": "kit",
+          "unit_price": 25.0,
+          "supplier": "Amazon",
+          "notes": "Field maintenance",
+          "extended_price": 25.0
+        },
+        {
+          "part_number": "GS-004",
+          "description": "Transport Case",
+          "specification": "Foam-lined hard case, 800x400mm",
+          "quantity": 1,
+          "unit": "pc",
+          "unit_price": 65.0,
+          "supplier": "Amazon / Pelican",
+          "notes": "Wing detaches for transport",
+          "extended_price": 65.0
+        }
+      ]
+    }
+  }
+}
