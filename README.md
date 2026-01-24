@@ -1,47 +1,42 @@
-# MegaDrone - Fixed-Wing UAV Development Project
+# MegaDrone - UAV Development Project
 
-**Project Goal:** Design and build fixed-wing UAVs for ISR (Intelligence, Surveillance, Reconnaissance) missions, progressing from small trainer to Aerosonde-class platform.
+**Project Goal:** Design and build fixed-wing and VTOL UAVs for ISR missions, progressing from small trainer platforms to ALTI Transition-class aircraft with 8-12 hour endurance.
 
-**Status:** Planning and Design Phase  
-**Last Updated:** January 8, 2026
+**Status:** Development Phase
+**Last Updated:** January 2026
 
 ---
 
 ## Project Overview
 
-### Two-Phase Development
+MegaDrone follows a progressive development path from skills-building platforms to professional ISR aircraft.
 
-**Phase 1: Starter Drone (30-60 min endurance)**
-- Wingspan: 2.2 m (7.2 ft)
-- Weight: 22 lbs (10 kg)
-- Propulsion: Electric (LiPo battery)
-- Purpose: Learn design process, validate tools, build pilot skills
-- Budget: $5,000-$10,000
-- Timeline: 6 months
+### Version Progression
 
-**Phase 2: ISR Platform (8-12 hour endurance)**
-- Wingspan: 4.0+ m (13+ ft)
-- Weight: 40-50 lbs (18-23 kg)
-- Propulsion: Gasoline engine (NGH GT25 25cc)
-- Purpose: Maritime ISR for JPA Privateer operations
-- Optional: VTOL capability (Aerosonde HQ variant)
-- Budget: $50,000-$100,000 (custom) or $100,000-$200,000 (commercial)
-- Timeline: 12-18 months
+| Version | Type | Wingspan | Payload | Endurance | Cost |
+|---------|------|----------|---------|-----------|------|
+| **V0** | Fixed-Wing | 1.0-1.2m | 200g | 20-25 min | $200 |
+| **V1** | Fixed-Wing | 1.0-1.2m | 300g | 25-30 min | $550 |
+| **V1-ACAP** | Fixed-Wing | 1.0-1.2m | 200g | 20-25 min | $130 |
+| **V1-LE** | Fixed-Wing | 1.8-2.0m | 300g | 2-2.5 hrs | $660 |
+| **V2** | Fixed-Wing (ALTI) | 3.2m | 2.5 kg | 3-4 hrs | $1,830 |
+| **V3** | VTOL (ALTI) | 3.2m | 2.5 kg | 2-2.5 hrs | $2,680 |
+| **V4** | VTOL Hybrid | 3.2m | 2.5 kg | **8-12 hrs** | $4,750 |
 
----
+### Reference Design: ALTI Transition
 
-## Mission Requirements (from JPA Business Plan)
+V2/V3/V4 are inspired by the [ALTI Transition](https://altiunmanned.com/transition) VTOL UAS:
+- 3.0m wingspan, 2.3m length
+- 18 kg MTOW, 1 kg payload
+- 12 hour endurance, 900 km range
+- Hybrid propulsion (4 VTOL + 1 gas pusher)
 
-**Primary Customer:** U.S. Customs and Border Protection (CBP), DEA, USCG  
-**Mission:** Maritime drug interdiction support (Gulf of Mexico, Caribbean, California coast)
+### Starlink Integration
 
-**Requirements:**
-- 8-12 hour endurance
-- EO/IR camera with real-time datalink
-- 100+ km operational radius
-- Day/night operations
-- Operating cost: <$500/hour
-- Contract value: $400K-$2M annually (Years 1-3)
+V2/V3/V4 support **2.5 kg payload** for ISR + Starlink:
+- ISR camera: 1 kg
+- Starlink Mini: 1.5 kg
+- **Link range: Unlimited (global satellite)**
 
 ---
 
@@ -49,34 +44,173 @@
 
 ```
 MegaDrone/
-├── README.md                          # This file
-├── DRONE_DEVELOPMENT_PLAN.md          # Complete design guide
-├── OPENVSP_QUICK_START.md             # OpenVSP tutorial (MacOS)
-├── GMSH_WORKFLOW.md                   # GMSH UAV modeling guide ✨ NEW
-├── PHASE2_ENGINE_ANALYSIS.md          # NGH GT25 engine analysis
-├── AEROSONDE_HQ_VTOL_ANALYSIS.md      # VTOL hybrid configuration
+├── README.md                    # This file
+├── requirements.txt             # Python dependencies
 │
-├── designs/                           # Generated UAV models
-│   ├── Phase1_UAV_GMSH.stl           # ✨ GMSH-generated STL (ready)
-│   ├── Phase1_UAV_GMSH.msh           # ✨ GMSH mesh format
-│   ├── Phase1_UAV_GMSH.vtk           # ✨ ParaView visualization
-│   └── Phase1_UAV_GMSH.geo_unrolled  # ✨ GMSH script
+├── docs/                        # Documentation
+│   ├── roadmap/                 # Development roadmap
+│   │   └── development_roadmap.md  # Complete version specs
+│   ├── design/                  # Design documentation
+│   │   ├── DESIGN_SUMMARY.md
+│   │   └── bill_of_materials.md
+│   ├── analysis/                # Analysis results
+│   │   ├── CFD_VALIDATION_GUIDE.md
+│   │   ├── CFD_VALIDATION_RESULTS.md
+│   │   ├── AEROSONDE_HQ_VTOL_ANALYSIS.md
+│   │   └── PHASE2_ENGINE_ANALYSIS.md
+│   ├── guides/                  # How-to guides
+│   │   ├── OPENVSP_QUICK_START.md
+│   │   ├── GMSH_WORKFLOW.md
+│   │   └── QUICK_REFERENCE.md
+│   └── archive/                 # Historical documents
+│       ├── DRONE_DEVELOPMENT_PLAN.md
+│       └── ...
 │
-├── scripts/                           # Python automation
-│   ├── gmsh_uav_simple.py            # ✨ GMSH UAV generator (working!)
-│   ├── gmsh_uav_generator.py         # Advanced GMSH version
-│   ├── openvsp_setup.py              # OpenVSP API setup (requires build)
-│   ├── phase1_fixedwing.py           # OpenVSP template (requires build)
-│   └── README_PYTHON_API.md          # OpenVSP API notes
+├── hardware/                    # Hardware documentation by version
+│   ├── README.md               # Version overview
+│   ├── v0_skills_platform/     # V0 specs and BOM
+│   ├── v1_durable_platform/    # V1 specs and BOM
+│   ├── v1_acap/                # V1-ACAP (dRehmFlight + SBC)
+│   ├── v1_variants/            # V1-LE, V1-Fast variants
+│   ├── v2_alti_fixedwing/      # V2 ALTI-style fixed-wing
+│   ├── v3_alti_vtol/           # V3 VTOL QuadPlane
+│   └── v4_alti_hybrid/         # V4 gas-electric hybrid
 │
-├── venv/                              # Python virtual environment
-├── requirements.txt                   # Python dependencies (gmsh, numpy, etc)
+├── src/                         # Source code
+│   ├── README_PYTHON_API.md    # API documentation
+│   ├── analysis/               # Analysis scripts
+│   │   ├── aero_analysis.py
+│   │   ├── structural_analysis.py
+│   │   ├── cfd_validation.py
+│   │   └── ...
+│   ├── design/                 # Design generation scripts
+│   │   ├── phase1_openvsp_correct.py
+│   │   ├── drone_sizing.py
+│   │   └── ...
+│   ├── mesh/                   # Mesh generation scripts
+│   │   ├── gmsh_uav_generator.py
+│   │   └── ...
+│   └── tools/                  # Utility scripts
+│       ├── bill_of_materials.py
+│       ├── generate_pdf_report.py
+│       └── ...
 │
-└── docs/                              # Additional documentation
-    ├── airfoils/                      # Airfoil coordinate files
-    ├── references/                    # PDFs, datasheets
-    └── calculations/                  # Performance spreadsheets
+├── designs/                     # Design output files
+│   ├── phase1/                 # Phase 1 UAV designs
+│   │   ├── Phase1_UAV_Correct.vsp3
+│   │   ├── Phase1_UAV_Correct.step
+│   │   ├── Phase1_UAV_Correct.stl
+│   │   └── ...
+│   └── exports/                # Exported images/PDFs
+│       ├── three_view_drawing.png
+│       ├── MegaDrone_Design_Report.pdf
+│       └── ...
+│
+├── cfd/                         # CFD analysis files
+│   ├── airfoil_2d.su2
+│   ├── su2_config_cruise.cfg
+│   └── ...
+│
+└── venv/                        # Python virtual environment
 ```
+
+---
+
+## Quick Start
+
+### 1. Setup Environment
+
+```bash
+cd /Users/matthewoneil/Desktop/Datawerkes/MegaDrone
+source venv/bin/activate
+```
+
+### 2. Review Development Roadmap
+
+```bash
+# Complete version specifications
+open docs/roadmap/development_roadmap.md
+
+# Hardware version summaries
+open hardware/README.md
+```
+
+### 3. Generate UAV Model
+
+```bash
+# OpenVSP Python API
+python src/design/phase1_openvsp_correct.py
+
+# GMSH mesh generation
+python src/mesh/gmsh_uav_occ.py
+```
+
+### 4. Run Analysis
+
+```bash
+# Aerodynamic analysis
+python src/analysis/aero_analysis.py
+
+# Structural analysis
+python src/analysis/structural_analysis.py
+
+# CFD validation
+python src/analysis/cfd_validation.py
+```
+
+---
+
+## Development Path
+
+### Skills Development (V0 → V1)
+
+```
+V0 ($200)              V1 ($550)              V1-ACAP ($130)
+Foam construction  →   Durable build     or   Custom autopilot
+Learn to fly           Camera testing         Full code access
+ArduPilot basics       Gimbal integration     dRehmFlight + SBC
+```
+
+### Scaling Up (V1 Variants)
+
+```
+V1 Base (1.0-1.2m)
+        │
+        ├── V1-LE (1.8-2.0m) → 2+ hrs @ 45-50 km/h
+        ├── V1-Fast (1.5-1.7m) → 1 hr @ 55-65 km/h
+        └── V1-Fast 2hr (2.2-2.4m) → 2+ hrs @ 55-60 km/h
+```
+
+### ALTI-Class Development (V2 → V3 → V4)
+
+```
+V2 (Fixed-Wing)        V3 (VTOL)              V4 (Hybrid)
+3.2m wingspan          + 4 VTOL motors        + Gas pusher
+3-4 hr endurance       2-2.5 hr endurance     8-12 hr endurance
+Electric pusher        All-electric           Gas + Electric
+$1,830                 $2,680                 $4,750
+```
+
+---
+
+## Key Features
+
+### V1-ACAP: Custom Autopilot ($130)
+
+Build your own autopilot with full code access:
+- **Inner loop:** Teensy 4.0 + dRehmFlight (stabilization)
+- **Outer loop:** SBC (RPi/ESP32) + GPS (navigation)
+- **Capabilities:** Waypoints, RTH, autonomous missions
+- **Cost:** $50-60 for FC stack vs $200+ for Pixhawk
+
+### V4: Long-Endurance Hybrid
+
+Professional-grade ISR platform:
+- **8-12 hour** gas-powered cruise
+- **2.5 kg payload** (ISR + Starlink)
+- **900 km range**
+- **Unlimited link range** via Starlink
+- **$4/hr operating cost**
 
 ---
 
@@ -84,386 +218,82 @@ MegaDrone/
 
 ### Design Tools
 
-**GMSH** ✨ (Installed: `pip install gmsh`) **← PRIMARY TOOL**
-- Parametric 3D geometry generation
-- Automatic mesh generation
-- Python API (ready to use!)
-- Export: STL, MSH, VTK formats
-- Website: https://gmsh.info
-- **Status: Working! See `GMSH_WORKFLOW.md`**
+| Tool | Purpose | Status |
+|------|---------|--------|
+| **OpenVSP** | Parametric aircraft geometry | Installed |
+| **GMSH** | Mesh generation for CFD | Installed (`pip install gmsh`) |
+| **SU2** | CFD analysis | Configured |
+| **AeroSandbox** | Quick aero analysis | Installed |
 
-**OpenVSP** (Installed: `/Users/matthewoneil/OpenVSP-3.46.0-MacOS`)
-- Parametric aircraft geometry
-- Mass properties calculation
-- Drag estimation
-- Import STL from GMSH
-- GitHub: https://github.com/OpenVSP/OpenVSP
-- **Note:** Python API requires building from source
+### Autopilot
 
-**XFLR5** (Recommended)
-- Airfoil and wing analysis
-- Lift/drag polar calculation
-- Free download: http://www.xflr5.tech
+| Tool | Purpose |
+|------|---------|
+| **ArduPilot** | Flight controller firmware |
+| **Mission Planner** | Ground control station |
+| **iNav** | Alternative FC firmware |
+| **dRehmFlight** | Custom FC (V1-ACAP) |
 
-**Fusion 360 or SolidWorks**
-- Detail design (structure, mounts, fittings)
-- Manufacturing drawings
+### Flight Controllers
 
-### Autopilot and Ground Control
-
-**Ardupilot** (ArduPlane firmware)
-- Open-source autopilot
-- Waypoint navigation, autonomous flight
-- Documentation: https://ardupilot.org/plane/
-
-**TitanPlanner** (Ground Control Station)
-- Modified Mission Planner with improved UI
-- GitHub: https://github.com/Titan-Dynamics/TitanPlanner
-- Mission planning, telemetry, parameter tuning
-
-**Pixhawk Flight Controller**
-- Hardware: Pixhawk 4 (Phase 1) or Cube Orange+ (Phase 2)
-- Runs Ardupilot firmware
-
-### Python Environment
-
-**Virtual Environment:**
-```bash
-source venv/bin/activate
-```
-
-**Dependencies:**
-- gmsh>=4.13.0 (3D geometry and meshing) ✨
-- numpy>=1.24.0 (numerical computations)
-- pandas>=2.0.0 (data analysis)
-- matplotlib>=3.7.0 (visualization)
-- pyyaml>=6.0 (configuration files)
+| Version | Controller |
+|---------|------------|
+| V0/V1 | Pixhack or SpeedyBee F405 Wing Mini |
+| V1-ACAP | Teensy 4.0 + SBC |
+| V2/V3 | Pixhawk 6C |
+| V4 | Pixhawk 6X |
 
 ---
 
-## Quick Start
+## Cumulative Investment
 
-### 1. Generate UAV Model with OpenVSP Python API ✨ **NEW - NOW WORKING!**
-
-**The OpenVSP Python API is now installed and functional!**
-
-**Setup environment:**
-```bash
-cd /Users/matthewoneil/Desktop/Datawerkes/MegaDrone
-source venv/bin/activate
-```
-
-**Generate Phase 1 UAV model:**
-```bash
-python scripts/phase1_fixedwing.py
-```
-
-**Output:** `designs/Phase1_FixedWing_Trainer.vsp3` (292KB)
-- Native OpenVSP parametric model
-- Includes: Wing, fuselage, H-tail, V-tail, propeller
-- Airfoil: NACA 2412 (wing), NACA 0012 (tails)
-- Full parametric control via Python
-
-**Open in OpenVSP:**
-```bash
-cd /Users/matthewoneil/OpenVSP-3.46.0-MacOS
-./vsp
-# File → Open → designs/Phase1_FixedWing_Trainer.vsp3
-```
-
-**Documentation:**
-```bash
-open OPENVSP_API_SUCCESS.md  # Installation guide
-open OPENVSP_QUICK_START.md  # GUI tutorial
-```
-
-### 2. Alternative: Generate with GMSH (for meshing/CFD)
-
-**Generate Phase 1 UAV model:**
-```bash
-python scripts/gmsh_uav_occ.py
-```
-
-**Output files in `designs/`:**
-- `Phase1_UAV_OCC_HiRes.stl` - Import to OpenVSP or 3D print
-- `Phase1_UAV_OCC_HiRes.step` - CAD format (OpenVSP compatible)
-- `Phase1_UAV_OCC_HiRes.msh` - GMSH mesh for CFD
-
-**View model:**
-```bash
-gmsh designs/Phase1_UAV_OCC_HiRes.stl
-# or
-open designs/Phase1_UAV_OCC_HiRes.stl
-```
-
-**Documentation:**
-```bash
-open GMSH_WORKFLOW.md
-```
-
-### 3. OpenVSP GUI Workflow (Manual)
-
-**Launch OpenVSP:**
-```bash
-cd /Users/matthewoneil/OpenVSP-3.46.0-MacOS
-./vsp
-```
-
-**Follow tutorial:**
-```bash
-open OPENVSP_QUICK_START.md
-```
-
-**Manual design workflow:**
-1. Create geometry in OpenVSP GUI
-2. Export STEP/STL/DXF
-3. Import into CAD for detail design
-
-### 3. Review Documentation
-
-**Design guides:**
-```bash
-open DRONE_DEVELOPMENT_PLAN.md  # Complete design process
-open GMSH_WORKFLOW.md           # GMSH UAV modeling guide
-open OPENVSP_QUICK_START.md     # OpenVSP GUI tutorial
-```
-
-**Key sections:**
-- Aerosonde UAV capabilities (benchmark)
-- JPA Privateer mission requirements
-- Aircraft design process (step-by-step)
-- GMSH parametric scripting
-- Airfoil selection
-- Ardupilot integration
+| Milestone | Cost | Capability |
+|-----------|------|------------|
+| V0 Complete | $200 | Basic flying, autopilot tuning |
+| V1 Complete | $550 | Durable airframe, camera testing |
+| V1-ACAP | $130 | Custom autopilot, full code access |
+| V2 Complete | $2,750 | 3-4 hr endurance, 2.5 kg payload |
+| V3 Complete | $3,700 | VTOL, runway-independent |
+| V4 Complete | $6,000 | 8-12 hr hybrid, unlimited range |
 
 ---
 
-## Design Workflow (Manual with OpenVSP GUI)
+## Documentation Index
 
-### Phase 1: Starter Drone
+### Core Documents
 
-**Step 1: OpenVSP Model (Week 1-2)**
-- Follow OPENVSP_QUICK_START.md tutorial
-- Create: Wing, fuselage, tail, propeller
-- Calculate mass properties, adjust CG to 25-30% MAC
-- Export: STEP (CAD), DXF (wing ribs), STL (visualization)
+| Document | Description |
+|----------|-------------|
+| [Development Roadmap](docs/roadmap/development_roadmap.md) | Complete version specifications |
+| [Hardware Overview](hardware/README.md) | Hardware by version |
+| [Design Summary](docs/design/DESIGN_SUMMARY.md) | Aircraft design overview |
 
-**Step 2: CAD Detail Design (Week 3-4)**
-- Import STEP file into Fusion 360
-- Design: Wing spar, servo mounts, battery tray, motor mount
-- Create manufacturing drawings
+### Guides
 
-**Step 3: Procurement (Week 5-6)**
-- Order: Foam, carbon fiber, motor, ESC, battery, Pixhawk, RC gear
-- Budget: ~$2,000-3,000
+| Guide | Description |
+|-------|-------------|
+| [OpenVSP Quick Start](docs/guides/OPENVSP_QUICK_START.md) | OpenVSP tutorial |
+| [GMSH Workflow](docs/guides/GMSH_WORKFLOW.md) | Mesh generation guide |
+| [Quick Reference](docs/guides/QUICK_REFERENCE.md) | Command reference |
 
-**Step 4: Fabrication (Month 2-3)**
-- Hot-wire cut foam wings
-- Assemble fuselage
-- Install electronics
-- Surface finish (spackle, sand, paint)
+### Analysis
 
-**Step 5: Ground Testing (Month 4)**
-- CG check, control surface throws
-- Ardupilot configuration
-- Motor bench test
-- Telemetry range test
-
-**Step 6: Flight Testing (Month 5-6)**
-- First flight (manual mode)
-- Autopilot testing (FBWA, Auto modes)
-- Endurance testing (30-60 min goal)
+| Document | Description |
+|----------|-------------|
+| [CFD Validation Guide](docs/analysis/CFD_VALIDATION_GUIDE.md) | CFD setup and analysis |
+| [CFD Results](docs/analysis/CFD_VALIDATION_RESULTS.md) | CFD validation results |
+| [VTOL Analysis](docs/analysis/AEROSONDE_HQ_VTOL_ANALYSIS.md) | VTOL configuration study |
 
 ---
 
-## Key Design Decisions
+## Next Steps
 
-### Airfoil Selection
-
-**Phase 1 (Trainer):**
-- **Recommended:** Eppler E423 or Selig S1223
-- **Rationale:** High L/D, gentle stall, proven at low Reynolds number
-- **Download:** https://m-selig.ae.illinois.edu/ads/coord_database.html
-
-**Phase 2 (ISR):**
-- **Recommended:** Eppler E423
-- **Rationale:** Best efficiency for long endurance cruise
-
-### Propulsion
-
-**Phase 1:**
-- Electric: 1200W brushless motor, 6S 10000 mAh LiPo
-- Propeller: 13" diameter, 2-blade folding (pusher)
-
-**Phase 2:**
-- Gasoline: NGH GT25 25cc 2-stroke (~2.5-3.0 HP)
-- Fuel: 1.5-2.0 gallons for 10-12 hour mission
-- See: PHASE2_ENGINE_ANALYSIS.md
-
-### VTOL Option (Phase 2b)
-
-**Add VTOL if:**
-- Ship-based operations required
-- No runway access
-- Budget allows +$8,000
-
-**Skip VTOL if:**
-- Land-based operations acceptable
-- Maximizing endurance critical
-- Budget-constrained
-
-**See:** AEROSONDE_HQ_VTOL_ANALYSIS.md
-
----
-
-## Aerosonde Benchmark Specifications
-
-**Aerosonde Mk 4.7G (Standard Fixed-Wing):**
-- Wingspan: 12-14.5 ft (3.8-4.4 m)
-- Weight: 71-79 lbs (32-36 kg)
-- Endurance: 10-16 hours
-- Engine: 3.5 HP gasoline 2-stroke
-- Launch: Catapult
-- Recovery: Net/parachute/skyhook
-- Cost: $100K-$200K (system)
-
-**Aerosonde Mk 4.7 HQ (VTOL Variant):**
-- Wingspan: 17 ft (5.2 m) - larger for VTOL weight
-- Weight: 80-90 lbs (36-41 kg estimated)
-- Endurance: Up to 20 hours
-- Propulsion: Hybrid (gasoline cruise + electric VTOL)
-- Launch/Recovery: Vertical takeoff and landing
-- Operational: U.S. Special Operations Command (SOCOM)
-- Cost: $200K-$300K (estimated)
-
-**Our Target (Phase 2):**
-- Stay under 55 lbs (FAA Part 107 limit)
-- 10-12 hour endurance (sufficient for ISR mission)
-- Cost: $50K-$100K (custom design, 50-75% cheaper)
-
----
-
-## Regulatory Compliance
-
-### FAA Part 107 (Small UAS)
-
-**Requirements:**
-- Aircraft weight <55 lbs
-- Remote pilot certificate (pass FAA knowledge test)
-- Aircraft registration
-- VLOS (visual line of sight) or waiver for BVLOS
-- Maximum altitude: 400 ft AGL (or waiver)
-
-**For ISR Mission:**
-- Apply for BVLOS (Beyond Visual Line of Sight) waiver
-- Justification: Maritime operations, low population density
-- Requires: Detect-and-avoid capability, safety case, ops manual
-- Approval time: 90-120 days
-
-**Alternative: COA (Certificate of Authorization)**
-- If operating as federal contractor (CBP, DEA)
-- Faster approval, less restrictive
-- Requires agency sponsorship
-
----
-
-## Budget Summary
-
-### Phase 1: Starter Drone
-
-| Category | Cost |
-|----------|------|
-| Materials (foam, carbon, composites) | $800 |
-| Propulsion (motor, ESC, battery, prop) | $500 |
-| Avionics (Pixhawk, GPS, telemetry) | $600 |
-| RC transmitter/receiver | $350 |
-| Payload (camera, gimbal) | $400 |
-| Tools and consumables | $500 |
-| Contingency (20%) | $800 |
-| **Total** | **$4,000-$6,000** |
-
-### Phase 2: ISR Platform (Custom Design)
-
-| Category | Cost |
-|----------|------|
-| Airframe (composite materials) | $15,000 |
-| Gasoline engine (NGH GT25) + fuel system | $1,000 |
-| Avionics (Cube Orange+, RTK GPS) | $1,500 |
-| EO/IR Camera (FLIR Duo Pro R) | $5,000 |
-| Datalink (long-range) | $1,000 |
-| Launch/recovery system | $2,000 |
-| Development and testing | $10,000 |
-| **Total (Fixed-Wing)** | **$35,000-$50,000** |
-| **VTOL Add-On** | **+$8,000** |
-
----
-
-## Next Steps (Week 1-2)
-
-### Immediate Actions
-
-- [x] Review DRONE_DEVELOPMENT_PLAN.md (complete)
-- [x] Review OpenVSP tutorial (complete)
-- [x] Review engine analysis (complete)
-- [x] Review VTOL analysis (complete)
-- [x] **Generate UAV model with GMSH** ✨ (complete!)
-- [x] **Export STL for OpenVSP/3D printing** ✨ (complete!)
-- [ ] **Import STL into OpenVSP and verify geometry**
-- [ ] **Download E423 airfoil coordinates** from UIUC database
-- [ ] **3D print 1:10 scale model** (optional visualization)
-- [ ] **Obtain FAA Part 107 certificate** (if not already have)
-
-### Design Phase (Month 1)
-
-- [ ] Import GMSH model to OpenVSP
-- [ ] Run OpenVSP analysis (mass properties, drag)
-- [ ] Run XFLR5 analysis (validate L/D, stall characteristics)
-- [ ] Refine airfoil (import E423 coordinates to GMSH)
-- [ ] Finalize component selection (motor, battery, etc.)
-- [ ] Order long-lead items (composite materials, electronics)
-
----
-
-## Resources
-
-### Documentation (This Repository)
-
-- `DRONE_DEVELOPMENT_PLAN.md` - Complete design guide (70+ pages)
-- `GMSH_WORKFLOW.md` - GMSH UAV modeling guide ✨ NEW
-- `OPENVSP_QUICK_START.md` - OpenVSP tutorial for MacOS
-- `PHASE2_ENGINE_ANALYSIS.md` - NGH GT25 engine specifications
-- `AEROSONDE_HQ_VTOL_ANALYSIS.md` - VTOL hybrid configuration
-
-### External Links
-
-**Design Tools:**
-- OpenVSP: https://openvsp.org
-- OpenVSP GitHub: https://github.com/OpenVSP/OpenVSP
-- XFLR5: http://www.xflr5.tech
-- Airfoil Database: https://m-selig.ae.illinois.edu/ads/coord_database.html
-
-**Autopilot:**
-- Ardupilot: https://ardupilot.org/plane/
-- TitanPlanner: https://github.com/Titan-Dynamics/TitanPlanner
-- ArduPlane QuadPlane: https://ardupilot.org/plane/docs/quadplane-overview.html
-
-**Regulatory:**
-- FAA Part 107: https://www.faa.gov/uas/commercial_operators/part_107
-- FAA UAS Classifications: https://www.faa.gov/air_traffic/publications/atpubs/aim_html/chap11_section_3.html
-- DroneZone (waivers): https://faadronezone.faa.gov
-
-**JPA Privateer Business:**
-- See: `../JPA/` directory (Anti-Cartel Maritime ISR contractor business plan)
-
----
-
-## Contact and Collaboration
-
-**Project Owner:** Matthew O'Neil  
-**Location:** Florida (ideal for maritime ISR operations)  
-**Background:** Commercial drone pilot (FAA Part 107), aerospace/defense interest
-
-**Goal:** Build capability to support federal ISR contracts (CBP, DEA, USCG) with cost-effective, long-endurance UAV platforms.
+1. **V0 Build** - Foam trainer with existing hardware
+2. **V1 Build** - Durable platform with camera integration
+3. **V1-ACAP** - Custom autopilot development (optional)
+4. **V2 Design** - ALTI-style fixed-wing CAD
+5. **V3 Conversion** - Add VTOL capability
+6. **V4 Integration** - Gas engine + Starlink
 
 ---
 
@@ -471,10 +301,10 @@ open OPENVSP_QUICK_START.md     # OpenVSP GUI tutorial
 
 **Proprietary - Internal Project Documentation**
 
-This repository contains design documentation and code for a private UAV development project. Not for public distribution.
+This repository contains design documentation and code for a private UAV development project.
 
 ---
 
-**Last Updated:** January 8, 2026  
-**Version:** 1.0  
-**Status:** Planning Phase - Ready to Begin Phase 1 Design
+**Last Updated:** January 2026
+**Version:** 2.0
+**Status:** Development Phase
