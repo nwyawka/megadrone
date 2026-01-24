@@ -70,6 +70,9 @@ US Army veteran with extensive rotary-wing experience including UH-60 Black Hawk
 | Service | Operation Desert Storm (ODS) |
 | Certification | Licensed Private Investigator |
 | Assets | Boat (Local Waterman) |
+| Contacts | City of Key West, Naval Air Station Key West, Local Intelligence* |
+
+*Access to all ex-4/229th Flying Tigers personnel contacts
 
 **Expertise:**
 - OH-58 Kiowa maintenance and repair
