@@ -121,8 +121,11 @@
 
 | Document | Description |
 |----------|-------------|
+| [SHOPPING_LIST.md](SHOPPING_LIST.md) | **Complete parts list with prices and vendors** |
+| [BUILD_GUIDE.md](BUILD_GUIDE.md) | **Step-by-step assembly instructions** |
+| [ARDUPILOT_SETUP.md](ARDUPILOT_SETUP.md) | **ArduPilot configuration and first flight** |
 | [BUILD_DIMENSIONS.md](BUILD_DIMENSIONS.md) | Single pusher - Complete build specifications |
-| [BUILD_DIMENSIONS_PUSHPULL.md](BUILD_DIMENSIONS_PUSHPULL.md) | **Push-pull twin with V-tail - Higher speed variant** |
+| [BUILD_DIMENSIONS_PUSHPULL.md](BUILD_DIMENSIONS_PUSHPULL.md) | Push-pull twin with V-tail - Higher speed variant |
 
 ### Configuration Comparison
 
