@@ -91,7 +91,7 @@ Retired Navy civilian and US Army combat veteran. Served as OH-58 Kiowa mechanic
 |-------|---------|
 | Callsign | Batman |
 | Military | US Army (Disabled Veteran) |
-| MOS | Fuel and Ammunition |
+| MOS | Fuel and Ammunition, Armorer |
 | Service | Operation Desert Storm (ODS) |
 | Civilian | Chicago EMT (Retired) |
 
