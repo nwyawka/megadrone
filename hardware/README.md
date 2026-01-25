@@ -8,7 +8,7 @@ This directory contains documentation for each hardware version in the MegaDrone
 |--------|--------|---------|
 | **VA-** | Air (Aerial drones) | VA-1, VA-5 |
 | **VS-** | Surface (Water/land) | VS-1D, VS-1S |
-| **VSS-** | Subsurface (Underwater) | VSS-1 (future) |
+| **VSS-** | Subsurface (Underwater) | VSS-1I, VSS-1P, VSS-1S |
 
 ---
 
@@ -87,6 +87,72 @@ VS-1S (Sail-Assisted)
 
 ---
 
+## Subsurface Platform Overview (VSS-)
+
+| Version | Type | Depth | Endurance | Best For | Cost | Status |
+|---------|------|-------|-----------|----------|------|--------|
+| [VSS-1I](vss1_submersible/) | Inspection ROV | 200m | 4-8 hrs | Hull inspection, visual ID | ~$7,000 | **Development** |
+| [VSS-1P](vss1_submersible/) | Patrol AUV | 200m | 12-24 hrs | Search, patrol, mapping | ~$22,000 | Planned |
+| [VSS-1S-G](vss1_submersible/) | Glider | 200m | Weeks-Months | Mobile acoustic monitoring | ~$11,000 | Planned |
+| [VSS-1S-B](vss1_submersible/) | Bottom-Sitter | 200m | 6-12 months | Fixed acoustic monitoring | ~$8,000 | Planned |
+
+### VSS-1 Family - Multi-Role Underwater Vehicles
+
+The VSS-1 is a family of underwater vehicles for Gulf of Mexico operations at 200m depth rating.
+
+| Variant | Role | Form Factor |
+|---------|------|-------------|
+| **VSS-1I (Inspector)** | Hull inspection, close visual work | ROV, 6-thruster, hover capable |
+| **VSS-1P (Patrol)** | Area search, autonomous patrol | Torpedo-style AUV |
+| **VSS-1S-G (Sentry Glider)** | Wide-area acoustic monitoring | Buoyancy-driven glider |
+| **VSS-1S-B (Sentry Bottom)** | Fixed passive monitoring | Seafloor-deployed sensor |
+
+**Common Features:**
+- 200m depth rating (continental shelf)
+- Deploy from shore, VS-1, or manned vessel
+- ArduSub autopilot (where applicable)
+- Common data formats and charging
+
+---
+
+## Development Progression (Subsurface)
+
+```
+VSS-1I (Inspector)  ←── START HERE
+        │
+        │  Lowest cost, validates underwater ops
+        │  Tethered option reduces risk
+        │
+        ▼
+VSS-1S-B (Bottom-Sitter)
+        │
+        │  Passive monitoring
+        │  Complements VS-1 picket
+        │
+        ▼
+VSS-1P (Patrol)
+        │
+        │  Full autonomous capability
+        │  Highest cost (DVL, sonar)
+        │
+        ▼
+VSS-1S-G (Glider)
+        │
+        │  Longest endurance
+        │  Most complex (buoyancy engine)
+```
+
+## Cumulative Investment (Subsurface)
+
+| Milestone | Cumulative Cost | Capability |
+|-----------|-----------------|------------|
+| VSS-1I Complete | $7,000 | Hull inspection, visual ID, tethered ops |
+| VSS-1S-B Complete | $15,000 | + Fixed acoustic monitoring |
+| VSS-1P Complete | $37,000 | + Autonomous patrol, sonar mapping |
+| VSS-1S-G Complete | $48,000 | + Long-duration mobile acoustic |
+
+---
+
 ## Development Progression (Air)
 
 ```
@@ -151,6 +217,20 @@ VA-0 (Skills)        VA-1 (Durable)       VA-1 ACAP (Custom)
 | Maximum autonomy | VS-1S | Sail + solar = months on station |
 | Lowest operating cost | VS-1S | Minimal fuel consumption |
 
+## Quick Selection Guide (Subsurface)
+
+| Need | Version | Why |
+|------|---------|-----|
+| **Start subsurface development** | **VSS-1I** | Lowest cost, tethered option |
+| Hull inspection | VSS-1I | Hover, precision, HD video |
+| Contraband search | VSS-1I | Visual ID under hulls |
+| Seafloor search/mapping | VSS-1P | Side-scan sonar, autonomy |
+| Pipeline inspection | VSS-1P | Transit + sonar |
+| Harbor/port monitoring | VSS-1S-B | Long-duration passive |
+| Diver detection | VSS-1S-B | Passive hydrophone |
+| Wide-area acoustic | VSS-1S-G | Mobile, weeks duration |
+| Complement VS-1 picket | VSS-1S-G | Subsurface detection layer |
+
 ## Directory Structure
 
 ```
@@ -174,10 +254,10 @@ hardware/
 ├── va5_strike/                # VA-5R/VA-5S Quad platform
 │   └── README.md
 │
-├── vs1_picket/                # VS-1 Picket surveillance vessel
+├── vs1_picket/                # VS-1D/VS-1S Picket surveillance vessel
 │   └── README.md
 │
-└── vss1_[future]/             # Subsurface drone (planned)
+└── vss1_submersible/          # VSS-1 Multi-role underwater vehicles
     └── README.md
 ```
 
