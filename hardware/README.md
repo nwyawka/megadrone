@@ -7,7 +7,7 @@ This directory contains documentation for each hardware version in the MegaDrone
 | Prefix | Domain | Example |
 |--------|--------|---------|
 | **VA-** | Air (Aerial drones) | VA-1, VA-5 |
-| **VS-** | Surface (Water/land) | VS-1 (future) |
+| **VS-** | Surface (Water/land) | VS-1D, VS-1S |
 | **VSS-** | Subsurface (Underwater) | VSS-1 (future) |
 
 ---
@@ -31,20 +31,59 @@ This directory contains documentation for each hardware version in the MegaDrone
 
 ## Surface Platform Overview (VS-)
 
-| Version | Type | Length | Endurance | Speed | Cost | Status |
-|---------|------|--------|-----------|-------|------|--------|
-| [VS-1](vs1_picket/) | USV Monohull | 7m | Days/Weeks | 5-8 kts | $4,255 | Concept |
+| Version | Type | Propulsion | Range | Loiter | Cost | Status |
+|---------|------|------------|-------|--------|------|--------|
+| [VS-1D](vs1_picket/) | USV 7m | Diesel + Electric | 1,000+ nm | Weeks (silent) | ~$14,000 | **Development** |
+| [VS-1S](vs1_picket/) | USV 7m | Sail + Diesel | 1,500+ nm | Months (silent) | ~$16,000 | Planned |
 
-### VS-1 Picket - Long-Endurance Surveillance Vessel
+### VS-1 Picket - Long-Range Self-Deploying Surveillance Vessel
 
-The VS-1 is designed as a "picket" vessel for persistent maritime surveillance in the Gulf of Mexico.
+The VS-1 is designed as a "picket" vessel for persistent maritime surveillance in the Gulf of Mexico. Self-deploys 1,000 nm from home base.
 
-**Key Features:**
-- Foam core composite hull (7m, fineness ratio 10-12)
-- Hybrid power: Honda EU1000i generator + LiFePO4 batteries + solar
+| Variant | Best For | Development Phase |
+|---------|----------|-------------------|
+| **VS-1D (Diesel + Electric)** | Balanced - 1,000 nm range + silent loiter | **Start here** |
+| **VS-1S (Sail-Assisted)** | Max autonomy - months on station | Future upgrade |
+
+**Common Features (all variants):**
+- Semi-planing foam core hull (7m, 1.4-1.6m beam)
+- 400-500W solar array
+- Self-deploy/recover to shore facility
 - AIS receiver for vessel traffic monitoring
 - Starlink communications (shared with VA-4)
 - ArduPilot Rover for autonomous operations
+
+---
+
+## Development Progression (Surface)
+
+```
+VS-1D (Diesel + Electric)
+        │
+        │  Lessons learned from VS-1D:
+        │  - Hull performance validation
+        │  - Solar/electric loiter proven
+        │  - Autopilot tuning complete
+        │
+        ▼
+VS-1S (Sail-Assisted)
+        │
+        │  Adds:
+        │  - 8m² rigid wing sail
+        │  - Wind-based propulsion
+        │  - Months-long autonomy
+        │
+        ▼
+   [Future VS-2?]
+   Larger/specialized variants
+```
+
+## Cumulative Investment (Surface)
+
+| Milestone | Cumulative Cost | Capability |
+|-----------|-----------------|------------|
+| VS-1D Complete | $14,000 | 1,000 nm self-deploy, weeks on station, silent loiter |
+| VS-1S Complete | $30,000 | 1,500 nm range, months on station, sail autonomy |
 
 ---
 
@@ -101,6 +140,16 @@ VA-0 (Skills)        VA-1 (Durable)       VA-1 ACAP (Custom)
 | Starlink integration | VA-2/VA-3/VA-4 | 2.5 kg payload capacity |
 | Close-range ISR | VA-5R | Quad, rapid deploy, VTOL |
 | **Strike / Offensive** | **VA-5S** | Quad-based, warhead payload |
+
+## Quick Selection Guide (Surface)
+
+| Need | Version | Why |
+|------|---------|-----|
+| **Start surface development** | **VS-1D** | Balanced capability, proven tech base |
+| 1,000 nm self-deploy | VS-1D | Diesel range + electric loiter |
+| Silent surveillance | VS-1D or VS-1S | Electric/sail loiter modes |
+| Maximum autonomy | VS-1S | Sail + solar = months on station |
+| Lowest operating cost | VS-1S | Minimal fuel consumption |
 
 ## Directory Structure
 
