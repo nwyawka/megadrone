@@ -27,6 +27,27 @@ This directory contains documentation for each hardware version in the MegaDrone
 
 *VA-5R (Reconnaissance) and VA-5S (Strike) share a common quad platform.
 
+---
+
+## Surface Platform Overview (VS-)
+
+| Version | Type | Length | Endurance | Speed | Cost | Status |
+|---------|------|--------|-----------|-------|------|--------|
+| [VS-1](vs1_picket/) | USV Monohull | 7m | Days/Weeks | 5-8 kts | $4,255 | Concept |
+
+### VS-1 Picket - Long-Endurance Surveillance Vessel
+
+The VS-1 is designed as a "picket" vessel for persistent maritime surveillance in the Gulf of Mexico.
+
+**Key Features:**
+- Foam core composite hull (7m, fineness ratio 10-12)
+- Hybrid power: Honda EU1000i generator + LiFePO4 batteries + solar
+- AIS receiver for vessel traffic monitoring
+- Starlink communications (shared with VA-4)
+- ArduPilot Rover for autonomous operations
+
+---
+
 ## Development Progression (Air)
 
 ```
@@ -104,7 +125,7 @@ hardware/
 ├── va5_strike/                # VA-5R/VA-5S Quad platform
 │   └── README.md
 │
-├── vs1_[future]/              # Surface drone (planned)
+├── vs1_picket/                # VS-1 Picket surveillance vessel
 │   └── README.md
 │
 └── vss1_[future]/             # Subsurface drone (planned)
