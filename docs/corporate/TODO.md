@@ -33,6 +33,7 @@
 ## Leads / Contacts
 - **Boza:** Person with marina assets, works with Special Ops and Federal government
 - **Brown:** Person with intel experience
+- **Brown:** Congressional contact (KEY for Letter of Marque pursuit)
 - **Hartley:** Person in intel (pursue after Hartley briefed on company)
 
 ---
@@ -95,6 +96,7 @@
 | 45 | Follow up on Brown's intel contact | | | [ ] Pending |
 | 46 | Brief Hartley on company, then follow up on intel contact | | Apr 2026+ | [ ] Pending |
 | 47 | Document team certifications and licenses inventory | | | [ ] Pending |
+| 48 | Engage Brown's Congressional contact for LOM pursuit | Brown | | [ ] Pending |
 
 ---
 
@@ -327,6 +329,9 @@ Hartley has lead on someone in intel but hasn't been told about the company yet.
 ### 47. Document team certifications and licenses inventory
 Create roster of existing team certifications. Known: O'Neil has Ham license and GMRS registration. Track Part 107, boating certs, CWL, security licenses across team. Identify gaps.
 
+### 48. Engage Brown's Congressional contact for LOM pursuit
+Brown has a contact in Congress. This is the KEY relationship for pursuing Letter of Marque authorization. Schedule initial meeting, brief on JP Security mission and LOM intent, gauge interest in sponsoring LOM legislation. Build relationship for long-term congressional engagement.
+
 ---
 
 ## Summary
@@ -336,12 +341,12 @@ Create roster of existing team certifications. Known: O'Neil has Ham license and
 | Development | 6 | 0 |
 | Operations | 10 | 0 |
 | Government Contracting | 6 | 0 |
-| Team/Personnel | 11 | 0 |
+| Team/Personnel | 12 | 0 |
 | Finance/Investors | 4 | 0 |
 | Legal/Admin | 3 | 0 |
 | Infrastructure | 4 | 0 |
 | External/Marketing | 3 | 1 |
-| **TOTAL** | **47** | **1** |
+| **TOTAL** | **48** | **1** |
 
 ---
 

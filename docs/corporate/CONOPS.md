@@ -10,38 +10,184 @@
 ## Table of Contents
 
 1. [Executive Summary](#1-executive-summary)
-2. [Mission and Objectives](#2-mission-and-objectives)
-3. [Operational Environment](#3-operational-environment)
-4. [Organization and Command Structure](#4-organization-and-command-structure)
-5. [Operational Phases](#5-operational-phases)
-6. [Platform Employment](#6-platform-employment)
-7. [Intelligence Operations](#7-intelligence-operations)
-8. [Communications Architecture](#8-communications-architecture)
-9. [Coordination with Authorities](#9-coordination-with-authorities)
-10. [Logistics and Sustainment](#10-logistics-and-sustainment)
-11. [Rules of Engagement](#11-rules-of-engagement)
-12. [Training Requirements](#12-training-requirements)
-13. [Risk Management](#13-risk-management)
+2. [Strategic Intent: Letter of Marque](#2-strategic-intent-letter-of-marque)
+3. [Mission and Objectives](#3-mission-and-objectives)
+4. [Operational Environment](#4-operational-environment)
+5. [Organization and Command Structure](#5-organization-and-command-structure)
+6. [Operational Phases](#6-operational-phases)
+7. [Platform Employment](#7-platform-employment)
+8. [Intelligence Operations](#8-intelligence-operations)
+9. [Communications Architecture](#9-communications-architecture)
+10. [Coordination with Authorities](#10-coordination-with-authorities)
+11. [Logistics and Sustainment](#11-logistics-and-sustainment)
+12. [Rules of Engagement](#12-rules-of-engagement)
+13. [Training Requirements](#13-training-requirements)
+14. [Risk Management](#14-risk-management)
 
 ---
 
 ## 1. Executive Summary
 
-JP Security conducts persistent maritime surveillance operations in the Gulf of Mexico using a multi-domain unmanned systems approach. Operations integrate aerial (VA-), surface (VS-), and subsurface (VSS-) platforms to detect, track, and support interdiction of illicit maritime activity.
+JP Security is formed with the primary intent of obtaining a **Letter of Marque and Reprisal** from the United States Congress, authorizing private maritime interdiction operations against vessels engaged in drug trafficking, human smuggling, and other hostile activities in the Gulf of Mexico and Caribbean.
 
-**Core Capability:** Provide actionable intelligence to federal law enforcement agencies (USCG, CBP) through persistent surveillance, vessel identification, and threat assessment.
+**Strategic Vision:** Become a congressionally authorized privateer conducting direct interdiction operations against narco-traffickers and hostile non-state actors threatening U.S. maritime security.
 
-**Operational Model:** Self-funded operations with compensation tied to successful vessel interdiction. Team deploys to forward operating locations (Key West) for rotational operations.
+**Core Capability:** Multi-domain unmanned systems (aerial, surface, subsurface) for persistent surveillance, vessel identification, threat assessment, and—upon LOM authorization—direct interdiction and seizure.
+
+**Phased Approach:**
+1. **Phase 1 (Current):** Build operational capability, demonstrate effectiveness supporting federal agencies
+2. **Phase 2 (Near-term):** Pursue government contracts for ISR and maritime domain awareness
+3. **Phase 3 (Primary Goal):** Obtain Letter of Marque for authorized private interdiction operations
+
+**Operational Model:** Self-funded operations with compensation tied to successful interdiction. Upon LOM issuance, prize money from seized vessels and cargo per congressional authorization.
 
 ---
 
-## 2. Mission and Objectives
+## 2. Strategic Intent: Letter of Marque
 
-### 2.1 Mission Statement
+### 2.1 Constitutional Basis
 
-Conduct persistent maritime domain awareness operations in the Gulf of Mexico to detect, identify, track, and report vessels engaged in illicit activity, supporting federal law enforcement interdiction efforts.
+The U.S. Constitution, Article I, Section 8, Clause 11 grants Congress the power:
 
-### 2.2 Primary Objectives
+> *"To declare War, grant Letters of Marque and Reprisal, and make Rules concerning Captures on Land and Water"*
+
+Letters of Marque have not been issued since the War of 1812, but the constitutional authority remains intact. The rise of narco-trafficking, human smuggling, and maritime terrorism presents a modern case for reviving this tool.
+
+### 2.2 Modern Application
+
+**Target Actors:**
+- Drug trafficking organizations (DTOs) operating vessels in Gulf of Mexico / Caribbean
+- Human smuggling networks
+- Hostile non-state actors threatening U.S. maritime interests
+
+**Rationale for LOM:**
+- Federal agencies (USCG, CBP) are resource-constrained
+- Vast maritime domain exceeds government patrol capacity
+- Private sector can augment national maritime security
+- Incentive-based model (prize money) reduces taxpayer burden
+- Historical precedent for privateering in national defense
+
+### 2.3 Letter of Marque Concept
+
+```
+LETTER OF MARQUE OPERATIONAL CONCEPT
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                     CONGRESSIONAL AUTHORIZATION                              │
+│                      (Letter of Marque issued)                               │
+└───────────────────────────────┬─────────────────────────────────────────────┘
+                                │
+                                ▼
+┌─────────────────────────────────────────────────────────────────────────────┐
+│  JP SECURITY AUTHORIZED ACTIONS (per LOM terms):                            │
+│                                                                              │
+│  • Detect and identify vessels engaged in specified illicit activity        │
+│  • Approach, hail, and demand compliance                                    │
+│  • Board and search vessels meeting LOM criteria                            │
+│  • Seize vessels and cargo as prizes                                        │
+│  • Detain crew for handoff to federal authorities                           │
+│  • Use proportional force in self-defense and to effect seizure             │
+└───────────────────────────────┬─────────────────────────────────────────────┘
+                                │
+                                ▼
+┌─────────────────────────────────────────────────────────────────────────────┐
+│  PRIZE ADJUDICATION                                                          │
+│                                                                              │
+│  • Seized vessels/cargo brought to U.S. port                                │
+│  • Federal court adjudicates prize                                          │
+│  • JP Security receives prize money per LOM terms                           │
+│  • Crew processed through federal justice system                            │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+### 2.4 LOM Requirements (Anticipated)
+
+To obtain and maintain a Letter of Marque, JP Security anticipates demonstrating:
+
+| Requirement | JP Security Capability |
+|-------------|----------------------|
+| **Operational Competence** | Proven track record supporting federal interdiction |
+| **Platform Capability** | Multi-domain unmanned systems, armed capability (VA-5S) |
+| **Personnel Vetting** | Background checks, clearances for all personnel |
+| **Financial Responsibility** | Bond/insurance as required by Congress |
+| **Rules of Engagement** | Clear ROE compliant with law of armed conflict |
+| **Accountability** | Reporting, oversight, and audit mechanisms |
+| **Legal Compliance** | Adherence to LOM terms, international law |
+
+### 2.5 Path to Letter of Marque
+
+```
+LOM PURSUIT TIMELINE
+
+2026                    2027                    2028+
+  │                       │                       │
+  ▼                       ▼                       ▼
+┌─────────────┐     ┌─────────────┐     ┌─────────────┐
+│ BUILD       │     │ DEMONSTRATE │     │ PURSUE LOM  │
+│ CAPABILITY  │────►│ EFFECTIVENESS│────►│             │
+└─────────────┘     └─────────────┘     └─────────────┘
+      │                   │                   │
+      │                   │                   │
+• Platform development   • Government        • Congressional
+• Team building           contracts           engagement
+• Initial operations     • Track record      • Legal framework
+• Federal relationships  • Proven ops        • LOM application
+```
+
+**Phase 1: Build Capability (2026)**
+- Develop and test VA-, VS-, VSS- platforms
+- Conduct initial operations (Key West rotations)
+- Establish relationships with USCG, CBP
+- Build team, training, and procedures
+
+**Phase 2: Demonstrate Effectiveness (2027)**
+- Pursue government contracts (ISR, MDA support)
+- Compile operational track record
+- Document successful interdiction support
+- Develop armed capability (VA-5S)
+
+**Phase 3: Pursue Letter of Marque (2028+)**
+- Engage congressional sponsors
+- Develop legal framework proposal
+- Submit LOM application
+- Obtain authorization
+
+### 2.6 Interim Operations (Pre-LOM)
+
+Until a Letter of Marque is obtained, JP Security operates as:
+
+**Current Authority:** Private entity providing intelligence support to federal law enforcement
+- No authority to stop, board, or detain
+- Observe and report only
+- Support federal interdiction operations
+- Compensation via government contracts or success-based agreements
+
+**Government Contracting (Secondary Revenue):**
+- ISR services for USCG, CBP, DOD
+- Maritime domain awareness support
+- Counter-narcotics surveillance
+- Platform development contracts
+
+See [Business Plan](../business/BUSINESS_PLAN.md) for detailed business model.
+
+---
+
+## 3. Mission and Objectives
+
+### 3.1 Mission Statement
+
+**Ultimate Mission (Post-LOM):** Conduct authorized private interdiction operations against vessels engaged in drug trafficking, human smuggling, and hostile activities in the Gulf of Mexico and Caribbean, pursuant to Letter of Marque authorization from Congress.
+
+**Interim Mission (Pre-LOM):** Conduct persistent maritime domain awareness operations to detect, identify, track, and report vessels engaged in illicit activity, supporting federal law enforcement interdiction efforts while building capability and track record for LOM pursuit.
+
+### 3.2 Primary Objectives
+
+1. **Obtain Letter of Marque** - Primary strategic objective
+2. **Build Operational Capability** - Platforms, personnel, procedures
+3. **Demonstrate Effectiveness** - Track record of successful operations
+4. **Establish Federal Relationships** - USCG, CBP, congressional contacts
+
+### 3.3 Interim Operational Objectives (Pre-LOM)
 
 1. **Detection:** Identify vessels of interest through multi-domain sensor coverage
 2. **Identification:** Confirm vessel identity, flag state, registration, and activity
@@ -49,14 +195,14 @@ Conduct persistent maritime domain awareness operations in the Gulf of Mexico to
 4. **Assessment:** Provide close-range threat assessment prior to interdiction
 5. **Support:** Provide real-time intelligence support during boarding operations
 
-### 2.3 Secondary Objectives
+### 3.4 Secondary Objectives
 
-1. Build operational track record for government contracting opportunities
+1. Pursue government contracts for ISR and maritime domain awareness
 2. Develop and validate unmanned systems for maritime surveillance
-3. Establish relationships with federal agencies (USCG, CBP, DHS)
-4. Generate revenue through successful interdiction support
+3. Develop armed capability (VA-5S) for post-LOM operations
+4. Generate revenue to sustain operations and fund LOM pursuit
 
-### 2.4 Success Metrics
+### 3.5 Success Metrics
 
 | Metric | Target |
 |--------|--------|
@@ -68,9 +214,9 @@ Conduct persistent maritime domain awareness operations in the Gulf of Mexico to
 
 ---
 
-## 3. Operational Environment
+## 4. Operational Environment
 
-### 3.1 Area of Operations
+### 4.1 Area of Operations
 
 **Primary AO:** Gulf of Mexico, Florida Straits, Caribbean approaches
 
@@ -99,7 +245,7 @@ GULF OF MEXICO OPERATIONAL AREA
 - **Forward Operating Location:** Key West, FL
 - **Testing Locations:** Outer Banks NC, Maryland
 
-### 3.2 Threat Environment
+### 4.2 Threat Environment
 
 | Threat Type | Description | Indicators |
 |-------------|-------------|------------|
@@ -108,7 +254,7 @@ GULF OF MEXICO OPERATIONAL AREA
 | **Fishing vessel cover** | Legitimate vessels used for smuggling | Unusual patterns, rendezvous behavior |
 | **Motherships** | Larger vessels supporting smaller craft | Offshore loitering, multiple small craft contact |
 
-### 3.3 Environmental Factors
+### 4.3 Environmental Factors
 
 | Factor | Impact | Mitigation |
 |--------|--------|------------|
@@ -119,9 +265,9 @@ GULF OF MEXICO OPERATIONAL AREA
 
 ---
 
-## 4. Organization and Command Structure
+## 5. Organization and Command Structure
 
-### 4.1 Team Organization
+### 5.1 Team Organization
 
 ```
 JP SECURITY ORGANIZATION
@@ -140,7 +286,7 @@ JP SECURITY ORGANIZATION
 └───────────────┘   └───────────────┘   └───────────────┘
 ```
 
-### 4.2 Core Team (Current)
+### 5.2 Core Team (Current)
 
 | Name | Role | Key Responsibilities |
 |------|------|---------------------|
@@ -149,7 +295,7 @@ JP SECURITY ORGANIZATION
 | Boza | Maritime | Boat operations, marina contacts, federal liaison |
 | Devlin | TBD | TBD |
 
-### 4.3 Planned Expansion
+### 5.3 Planned Expansion
 
 | Phase | Timeline | Personnel |
 |-------|----------|-----------|
@@ -157,7 +303,7 @@ JP SECURITY ORGANIZATION
 | Phase 2 | Apr 2026 | Full team rollout (Hartley, Cieglo, others) |
 | Phase 3 | May 2026 | Corporate retreat, role finalization |
 
-### 4.4 Field Team Structure
+### 5.4 Field Team Structure
 
 **Typical Deployment Team:**
 - Team Lead (1)
@@ -167,9 +313,9 @@ JP SECURITY ORGANIZATION
 
 ---
 
-## 5. Operational Phases
+## 6. Operational Phases
 
-### 5.1 Phase Overview
+### 6.1 Phase Overview
 
 ```
 OPERATIONAL SEQUENCE
@@ -185,7 +331,7 @@ OPERATIONAL SEQUENCE
                                                supports
 ```
 
-### 5.2 Phase 1: Detection
+### 6.2 Phase 1: Detection
 
 **Objective:** Identify vessels of interest within the AO
 
@@ -204,7 +350,7 @@ OPERATIONAL SEQUENCE
 
 **Output:** Initial detection report with position, course, speed, preliminary assessment
 
-### 5.3 Phase 2: Identification
+### 6.3 Phase 2: Identification
 
 **Objective:** Positively identify vessel and assess threat level
 
@@ -228,7 +374,7 @@ OPERATIONAL SEQUENCE
 
 **Output:** Vessel identification report with imagery, assessment of threat level
 
-### 5.4 Phase 3: Track
+### 6.4 Phase 3: Track
 
 **Objective:** Maintain continuous custody of vessel of interest
 
@@ -245,7 +391,7 @@ OPERATIONAL SEQUENCE
 
 **Output:** Continuous track data feed to authorities and operations center
 
-### 5.5 Phase 4: Interdiction
+### 6.5 Phase 4: Interdiction
 
 **Objective:** Support authority boarding operation
 
@@ -262,7 +408,7 @@ OPERATIONAL SEQUENCE
 - Maintain comms with boarding team
 - Provide requested intelligence support
 
-### 5.6 Phase 5: Boarding Support
+### 6.6 Phase 5: Boarding Support
 
 **Objective:** Provide intelligence support during boarding operation
 
@@ -280,9 +426,9 @@ OPERATIONAL SEQUENCE
 
 ---
 
-## 6. Platform Employment
+## 7. Platform Employment
 
-### 6.1 Platform Roles
+### 7.1 Platform Roles
 
 | Platform | Primary Role | Secondary Role |
 |----------|--------------|----------------|
@@ -293,7 +439,7 @@ OPERATIONAL SEQUENCE
 | **VSS-1I** | Hull inspection | Subsurface search |
 | **VSS-1S** | Acoustic monitoring | Early warning |
 
-### 6.2 Integrated Operations
+### 7.2 Integrated Operations
 
 ```
 MULTI-DOMAIN INTEGRATION
@@ -322,7 +468,7 @@ MULTI-DOMAIN INTEGRATION
     (USCG/CBP)
 ```
 
-### 6.3 Platform Availability
+### 7.3 Platform Availability
 
 | Platform | Qty Planned | Summer 2026 Ready |
 |----------|-------------|-------------------|
@@ -331,7 +477,7 @@ MULTI-DOMAIN INTEGRATION
 | VS-1D | 1 | Development |
 | VSS-1I | 1 | Development |
 
-### 6.4 Deployment from VS-1
+### 7.4 Deployment from VS-1
 
 VS-1 serves as a mothership for smaller platforms:
 
@@ -353,9 +499,9 @@ VS-1 PLATFORM DEPLOYMENT
 
 ---
 
-## 7. Intelligence Operations
+## 8. Intelligence Operations
 
-### 7.1 Intelligence Cycle
+### 8.1 Intelligence Cycle
 
 ```
         ┌─────────────┐
@@ -374,7 +520,7 @@ VS-1 PLATFORM DEPLOYMENT
         └─────────────┘         └─────────────┘
 ```
 
-### 7.2 Collection Sources
+### 8.2 Collection Sources
 
 | Source | Type | Platform | Data |
 |--------|------|----------|------|
@@ -384,7 +530,7 @@ VS-1 PLATFORM DEPLOYMENT
 | Acoustic | Passive | VSS-1S | Vessel signatures |
 | Open Source | OSINT | Shore | Vessel databases, news |
 
-### 7.3 Analyst Role
+### 8.3 Analyst Role
 
 **Location:** Shore-based (remote) or forward deployed
 
@@ -398,7 +544,7 @@ VS-1 PLATFORM DEPLOYMENT
 
 **Shifts:** TBD (based on operational tempo)
 
-### 7.4 Information Security
+### 8.4 Information Security
 
 - All operational data encrypted in transit (Starlink, cellular)
 - Vessel database access controlled
@@ -408,9 +554,9 @@ VS-1 PLATFORM DEPLOYMENT
 
 ---
 
-## 8. Communications Architecture
+## 9. Communications Architecture
 
-### 8.1 Communications Overview
+### 9.1 Communications Overview
 
 ```
 COMMUNICATIONS ARCHITECTURE
@@ -439,7 +585,7 @@ COMMUNICATIONS ARCHITECTURE
                                     └─────────────────┘
 ```
 
-### 8.2 Communication Methods
+### 9.2 Communication Methods
 
 | Method | Use Case | Range | Security |
 |--------|----------|-------|----------|
@@ -449,7 +595,7 @@ COMMUNICATIONS ARCHITECTURE
 | **GMRS** | Team tactical | 5-25 mi | Unencrypted |
 | **Ham (HF)** | Emergency backup | Long range | Unencrypted |
 
-### 8.3 Frequency Plan
+### 9.3 Frequency Plan
 
 | Service | Frequency/Channel | Use |
 |---------|-------------------|-----|
@@ -459,7 +605,7 @@ COMMUNICATIONS ARCHITECTURE
 | GMRS Ch 2 | 462.5875 MHz | Team alternate |
 | Ham 2m | TBD | Emergency backup |
 
-### 8.4 Call Signs and Procedures
+### 9.4 Call Signs and Procedures
 
 **Call Signs:** TBD
 
@@ -475,9 +621,9 @@ COMMUNICATIONS ARCHITECTURE
 
 ---
 
-## 9. Coordination with Authorities
+## 10. Coordination with Authorities
 
-### 9.1 Agency Relationships
+### 10.1 Agency Relationships
 
 | Agency | Role | Contact Method |
 |--------|------|----------------|
@@ -486,7 +632,7 @@ COMMUNICATIONS ARCHITECTURE
 | **JIATF-South** | Strategic intel | TBD |
 | **DEA** | Intel sharing | TBD |
 
-### 9.2 Reporting Procedures
+### 10.2 Reporting Procedures
 
 **Suspicious Activity Report (SAR):**
 - Position, course, speed
@@ -500,7 +646,7 @@ COMMUNICATIONS ARCHITECTURE
 - Priority: Suspicious activity
 - Routine: End of patrol summary
 
-### 9.3 Legal Framework
+### 10.3 Legal Framework
 
 JP Security operates as a private entity providing intelligence support:
 - No law enforcement authority
@@ -510,9 +656,9 @@ JP Security operates as a private entity providing intelligence support:
 
 ---
 
-## 10. Logistics and Sustainment
+## 11. Logistics and Sustainment
 
-### 10.1 Forward Operating Location - Key West
+### 11.1 Forward Operating Location - Key West
 
 **Facilities Required:**
 - Boat slip/mooring (Boza coordinates)
@@ -524,7 +670,7 @@ JP Security operates as a private entity providing intelligence support:
 - Summer 2026: 1-2 rotations planned
 - Duration: TBD (1-2 weeks per rotation)
 
-### 10.2 Equipment Transport
+### 11.2 Equipment Transport
 
 **Method:** O'Neil drives to Key West
 
@@ -536,7 +682,7 @@ JP Security operates as a private entity providing intelligence support:
 - Communications equipment
 - Personal kit
 
-### 10.3 Platform Maintenance
+### 11.3 Platform Maintenance
 
 | Platform | Maintenance Interval | Location |
 |----------|---------------------|----------|
@@ -545,7 +691,7 @@ JP Security operates as a private entity providing intelligence support:
 | VS-1 | Weekly, post-patrol | Shore facility |
 | VSS-1 | Post-dive, monthly | Shore facility |
 
-### 10.4 Supply Chain
+### 11.4 Supply Chain
 
 **Critical Spares (deploy with):**
 - Propellers (all platforms)
@@ -560,9 +706,9 @@ JP Security operates as a private entity providing intelligence support:
 
 ---
 
-## 11. Rules of Engagement
+## 12. Rules of Engagement
 
-### 11.1 General Principles
+### 12.1 General Principles
 
 1. **Safety First:** Personnel and platform safety paramount
 2. **Legal Compliance:** All operations within applicable law
@@ -570,7 +716,7 @@ JP Security operates as a private entity providing intelligence support:
 4. **Observe and Report:** Primary mission is intelligence collection
 5. **Escalation:** Contact authorities for any threat situation
 
-### 11.2 Platform Employment Rules
+### 12.2 Platform Employment Rules
 
 | Situation | Action | Authority |
 |-----------|--------|-----------|
@@ -581,7 +727,7 @@ JP Security operates as a private entity providing intelligence support:
 | Platform threatened | Withdraw, report | Immediate |
 | Authority requests support | Provide within capability | Team Lead |
 
-### 11.3 Standoff Distances
+### 12.3 Standoff Distances
 
 | Platform | Minimum Standoff | Notes |
 |----------|------------------|-------|
@@ -590,7 +736,7 @@ JP Security operates as a private entity providing intelligence support:
 | VS-1 | 1 nm | Surface vessel vulnerable |
 | VSS-1 | N/A | Subsurface, not visible |
 
-### 11.4 Weapons Policy
+### 12.4 Weapons Policy
 
 - Team members with valid CWL may carry personal firearms
 - Brown designated firearms resource
@@ -600,9 +746,9 @@ JP Security operates as a private entity providing intelligence support:
 
 ---
 
-## 12. Training Requirements
+## 13. Training Requirements
 
-### 12.1 Required Certifications
+### 13.1 Required Certifications
 
 | Certification | Required For | Who |
 |---------------|--------------|-----|
@@ -612,7 +758,7 @@ JP Security operates as a private entity providing intelligence support:
 | FCC GMRS | Radio operations | O'Neil (complete) |
 | Florida CWL | Concealed carry | Brown, others |
 
-### 12.2 Training Program
+### 13.2 Training Program
 
 | Training | Frequency | Attendees |
 |----------|-----------|-----------|
@@ -622,7 +768,7 @@ JP Security operates as a private entity providing intelligence support:
 | First aid/safety | Annual | All |
 | Intel analysis | Initial + quarterly | Analysts |
 
-### 12.3 Proficiency Requirements
+### 13.3 Proficiency Requirements
 
 | Skill | Standard | Evaluation |
 |-------|----------|------------|
@@ -632,9 +778,9 @@ JP Security operates as a private entity providing intelligence support:
 
 ---
 
-## 13. Risk Management
+## 14. Risk Management
 
-### 13.1 Risk Matrix
+### 14.1 Risk Matrix
 
 | Risk | Likelihood | Impact | Mitigation |
 |------|------------|--------|------------|
@@ -646,7 +792,7 @@ JP Security operates as a private entity providing intelligence support:
 | Legal/liability | Low | High | Legal review, insurance |
 | Hostile action | Low | High | Standoff, withdrawal |
 
-### 13.2 Emergency Procedures
+### 14.2 Emergency Procedures
 
 **Platform Loss:**
 1. Mark last known position
@@ -668,7 +814,7 @@ JP Security operates as a private entity providing intelligence support:
 4. Abort mission
 5. Debrief
 
-### 13.3 Insurance Requirements
+### 14.3 Insurance Requirements
 
 - General liability
 - Marine operations coverage
