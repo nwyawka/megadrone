@@ -295,10 +295,10 @@ Research relevant 2026 events: defense conferences, maritime security, drone ind
 Identify and establish relationships with key suppliers: Blue Robotics, motor/ESC vendors, battery suppliers, composite materials, electronics. Negotiate pricing, lead times.
 
 ### 37. Identify testing facilities and ranges
-Find locations for platform testing: airfields for VA- testing, water access for VS-1 trials, pool/open water for VSS-1. Consider FAA airspace, permits needed.
+Find locations for platform testing: airfields for VA- testing, water access for VS-1 trials, pool/open water for VSS-1. Consider FAA airspace, permits needed. Primary testing locations: Outer Banks NC for long-range testing, possibly Maryland. Local testing at home workshop area.
 
 ### 38. Plan Key West summer rotations (1-2 deployments)
-Plan 1-2 operational rotations in Key West for summer 2026. Boza provides boat, Brown has firearms, individual kit responsibility. Coordinate logistics, housing, operational areas, and mission objectives.
+Plan 1-2 operational rotations in Key West for summer 2026. Boza provides boat, Brown has firearms, individual kit responsibility. O'Neil drives to KW and transports drones. Coordinate logistics, housing, operational areas, and mission objectives.
 
 ### 39. Have VA-1 or VA-2 operational for summer deployment
 Build and test VA-1 or VA-2 fixed-wing platform ready for Key West summer operations. Include autopilot tuning, camera integration, and field deployment procedures.
