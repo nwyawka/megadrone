@@ -49,3 +49,30 @@ Thumbs.db
 # Backup files
 .bak/
 *.bak
+
+# OpenVSP runtime / solver outputs — regenerated from .vsp3 source
+.vsptime
+*.vspaero
+*.vspgeom
+*.vkey
+*.adb
+*.adb.cases
+*.quad.cases
+*.polar
+*.slc
+*.quad.*.dat
+*.case.*.dat
+*_CompGeom.csv
+
+# SU2 / CFD runtime outputs — regenerated from config
+cfd/flow.vtu
+cfd/surface_flow.vtu
+cfd/restart_flow.dat
+cfd/history.csv
+cfd/airfoil_2d.msh
+
+# ROS 2 / colcon build artifacts
+build/
+install/
+log/
+*.pyc

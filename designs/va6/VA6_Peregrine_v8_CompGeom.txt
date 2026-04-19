@@ -1,0 +1,12 @@
+...Comp Geom...
+1 Num Comps
+1 Total Num Meshes
+6747 Total Num Tris
+
+Theo_Area   Wet_Area   Theo_Vol    Wet_Vol  Name
+    0.365      0.365      0.007      0.007  MeshGeom       
+-------------------------------------------------
+    0.365      0.365      0.007      0.007  Totals         
+
+Tag_Theo_Area   Tag_Wet_Area    Tag_Name
+        0.365          0.365    MeshGeom_S_Surf0
