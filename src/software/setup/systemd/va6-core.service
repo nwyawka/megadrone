@@ -1,0 +1,23 @@
+[Unit]
+Description=VA-6 core flight stack (ROS 2 Humble)
+After=network.target
+Wants=network.target
+
+[Service]
+Type=simple
+User=ubuntu
+Group=ubuntu
+Environment=HOME=/home/ubuntu
+Environment=ROS_DOMAIN_ID=42
+ExecStart=/bin/bash -c 'source /opt/ros/humble/setup.bash && source /home/ubuntu/va6/src/software/ros2_ws/install/setup.bash && ros2 launch va6_mavlink_bridge bench_mavlink.launch.py'
+Restart=on-failure
+RestartSec=2
+WorkingDirectory=/home/ubuntu/va6
+
+# Resource hints
+Nice=-5
+CPUSchedulingPolicy=rr
+CPUSchedulingPriority=50
+
+[Install]
+WantedBy=multi-user.target
